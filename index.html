@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Watch & Jewelry Portfolio | Dubai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#D4AF37',
+                        secondary: '#1A2B4A',
+                        accent: '#E63946',
+                        dark: '#121212',
+                        light: '#F8F9FA'
+                    },
+                    fontFamily: {
+                        elegant: ['Playfair Display', 'serif'],
+                        sans: ['Montserrat', 'sans-serif']
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow { text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+            .transition-custom { transition: all 0.4s ease; }
+            .luxury-gradient { background: linear-gradient(135deg, #D4AF37 0%, #F0C808 100%); }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans text-dark bg-light overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-white/95 shadow-md transition-custom py-4 px-6 md:px-12">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-[clamp(1.2rem,2vw,1.8rem)] font-elegant font-bold text-secondary">
+                <span class="text-primary">Luxury</span>Visuals
+            </a>
+            <div class="hidden md:flex gap-8">
+                <a href="#home" class="font-medium hover:text-primary transition-custom">Home</a>
+                <a href="#about" class="font-medium hover:text-primary transition-custom">About</a>
+                <a href="#portfolio" class="font-medium hover:text-primary transition-custom">Portfolio</a>
+                <a href="#services" class="font-medium hover:text-primary transition-custom">Services</a>
+                <a href="#testimonials" class="font-medium hover:text-primary transition-custom">Testimonials</a>
+                <a href="#contact" class="font-medium hover:text-primary transition-custom">Contact</a>
+            </div>
+            <button class="md:hidden text-dark text-2xl">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center relative overflow-hidden pt-16">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=90" 
+                 alt="Luxury watches and jewelry with Dubai skyline" 
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-dark/60"></div>
+        </div>
+        <div class="container mx-auto px-6 md:px-12 relative z-10 py-16">
+            <div class="max-w-3xl">
+                <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-elegant font-bold text-white leading-tight text-shadow mb-4">
+                    Timeless Visuals for <span class="text-primary">Luxury Watch & Jewelry</span> Brands
+                </h1>
+                <p class="text-[clamp(1rem,2vw,1.2rem)] text-white/90 mb-8">
+                    Premium photography, videography & creative content tailored for Dubai & GCC's most prestigious brands. Energetic, vibrant, and professionally crafted to match world-class standards.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#portfolio" class="luxury-gradient text-white px-8 py-3 rounded-md font-semibold hover:scale-105 transition-custom shadow-lg">
+                        View Portfolio
+                    </a>
+                    <a href="#contact" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white/20 transition-custom">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-[clamp(1.8rem,3vw,2.8rem)] font-elegant font-bold text-secondary text-center mb-16">
+                About <span class="text-primary">Me</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-2xl font-semibold text-dark mb-4">Dedicated to Luxury Visual Storytelling</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed">
+                        Based in Dubai, I specialize in creating high-impact, vibrant, and professional visual content exclusively for premium watch and jewelry brands. With deep understanding of the Middle East luxury market, I blend creativity with precision to showcase craftsmanship, elegance, and exclusivity.
+                    </p>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        My work captures the brilliance of precious metals, the sparkle of gemstones, and the heritage of watchmaking — delivered with energy and style that resonates with high-end audiences across UAE and GCC.
+                    </p>
+                    <div class="grid grid-cols-2 gap-3 mb-6">
+                        <div class="flex items-center gap-2">
+                            <i class="fa fa-check-circle text-accent text-xl"></i>
+                            <span class="font-medium">Precision & Detail</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa fa-check-circle text-accent text-xl"></i>
+                            <span class="font-medium">Dubai Market Expertise</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa fa-check-circle text-accent text-xl"></i>
+                            <span class="font-medium">Vibrant Aesthetics</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa fa-check-circle text-accent text-xl"></i>
+                            <span class="font-medium">Professional Standards</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2 relative">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=90" 
+                         alt="Professional portrait" 
+                         class="w-full h-auto rounded-lg shadow-2xl">
+                    <div class="absolute -bottom-6 -left-6 luxury-gradient w-24 h-24 rounded-full -z-10"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-[clamp(1.8rem,3vw,2.8rem)] font-elegant font-bold text-secondary text-center mb-4">
+                My <span class="text-primary">Portfolio</span>
+            </h2>
+            <p class="text-center text-gray-600 max-w-2xl mx-auto mb-16">
+                Curated projects for leading watch and jewelry brands — featuring realistic photography, cinematic videos, and creative social content.
+            </p>
+
+            <!-- Category Tabs -->
+            <div class="flex justify-center mb-12 flex-wrap gap-4">
+                <button class="tab-btn active luxury-gradient text-white px-6 py-2 rounded-full font-semibold shadow-md" data-tab="watches">Luxury Watches</button>
+                <button class="tab-btn bg-white text-secondary border-2 border-primary px-6 py-2 rounded-full font-semibold hover:bg-primary/10 transition-custom" data-tab="jewelry">Fine Jewelry</button>
+            </div>
+
+            <!-- Watches Portfolio -->
+            <div id="watches-content" class="tab-content">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-custom group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1524592094714-0f0654e7931a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=90" 
+                                 alt="Luxury watch collection" 
+                                 class="w-full h-72 object-cover group-hover:scale-105 transition-custom duration-700">
+                            <div class="absolute top-0 left-0 w-full h-full bg-dark/40 opacity-0 group-hover:opacity-100 transition-custom flex items-center justify-center">
+                                <a href="#" class="luxury-gradient text-white px-6 py-2 rounded-md font-semibold">View Project</a>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-elegant font-bold text-xl text-secondary mb-2">Dubai Gold Edition</h3>
+                            <p class="text-gray-600 text-sm mb-4">Limited edition timepiece collection — shot at Downtown Dubai & luxury studio.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-primary/20 text-primary px-2 py-1 rounded">Photography</span>
+                                <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded">Videography</span>
+                                <span class="text-xs bg-secondary/20 text-secondary px-2 py-1 rounded">Social Posts</span>
+                            </div>
+                            <p class="text-sm text-gray-700 mb-3"><strong>Visuals:</strong> 12 high-res photos (macro details, lifestyle at Palm Jumeirah, studio shots), 3 cinematic videos, 8 creative posts.</p>
+                            <div class="aspect-video w-full overflow-hidden rounded mb-3">
+                                <video controls class="w-full h-full object-cover">
+                                    <source src="https://assets.mixkit.co/videos/preview/mixkit-luxury-watch-close-up-shot-13397-large.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="grid grid-cols-4 gap-2">
+                                <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Detail" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Lifestyle" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Studio" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1551527538-4905c2f20f31?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Packaging" class="w-full h-16 object-cover rounded">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-custom group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=90" 
+                                 alt="Premium sports watch" 
+                                 class="w-full h-72 object-cover group-hover:scale-105 transition-custom duration-700">
+                            <div class="absolute top-0 left-0 w-full h-full bg-dark/40 opacity-0 group-hover:opacity-100 transition-custom flex items-center justify-center">
+                                <a href="#" class="luxury-gradient text-white px-6 py-2 rounded-md font-semibold">View Project</a>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-elegant font-bold text-xl text-secondary mb-2">Desert Heritage Series</h3>
+                            <p class="text-gray-600 text-sm mb-4">Rugged yet elegant collection — shot in Dubai desert dunes & luxury yacht.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-primary/20 text-primary px-2 py-1 rounded">Photography</span>
+                                <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded">Videography</span>
+                                <span class="text-xs bg-secondary/20 text-secondary px-2 py-1 rounded">Social Posts</span>
+                            </div>
+                            <p class="text-sm text-gray-700 mb-3"><strong>Visuals:</strong> 10 high-res photos (golden hour desert, yacht lifestyle, movement details), 2 brand films, 6 campaign posts.</p>
+                            <div class="aspect-video w-full overflow-hidden rounded mb-3">
+                                <video controls class="w-full h-full object-cover">
+                                    <source src="https://assets.mixkit.co/videos/preview/mixkit-watch-on-sand-during-sunset-13400-large.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="grid grid-cols-4 gap-2">
+                                <img src="https://images.unsplash.com/photo-1517457154238-42d088339265?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Desert" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1532645519650-2c79a43018a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Yacht" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1579184832174-9d88a3169a72?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Detail" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Model" class="w-full h-16 object-cover rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jewelry Portfolio -->
+            <div id="jewelry-content" class="tab-content hidden">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-custom group">
+                        <div class="relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1549925245-00f8a371a1d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=90" 
+                                 alt="Diamond jewelry set" 
+                                 class="w-full h-72 object-cover group-hover:scale-105 transition-custom duration-700">
+                            <div class="absolute top-0 left-0 w-full h-full bg-dark/40 opacity-0 group-hover:opacity-100 transition-custom flex items-center justify-center">
+                                <a href="#" class="luxury-gradient text-white px-6 py-2 rounded-md font-semibold">View Project</a>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-elegant font-bold text-xl text-secondary mb-2">Royal Brilliance Collection</h3>
+                            <p class="text-gray-600 text-sm mb-4">Diamond & gold designs — shot at Burj Al Arab & luxury studio.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-primary/20 text-primary px-2 py-1 rounded">Photography</span>
+                                <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded">Videography</span>
+                                <span class="text-xs bg-secondary/20 text-secondary px-2 py-1 rounded">Social Posts</span>
+                            </div>
+                            <p class="text-sm text-gray-700 mb-3"><strong>Visuals:</strong> 12 high-res photos (macro diamond cuts, model shots, studio sparkle), 3 cinematic videos, 8 luxury posts.</p>
+                            <div class="aspect-video w-full overflow-hidden rounded mb-3">
+                                <video controls class="w-full h-full object-cover">
+                                    <source src="https://assets.mixkit.co/videos/preview/mixkit-diamond-jewelry-close-up-13398-large.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="grid grid-cols-4 gap-2">
+                                <img src="https://images.unsplash.com/photo-1551527538-4905c2f20f31?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Necklace" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1549925245-00f8a371a1d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Earrings" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1574634525134-60c248014534?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Ring" class="w-full h-16 object-cover rounded">
+                                <img src="https://images.unsplash.com/photo-1588444837445-49edc943987d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Model" class="w-full h-16 object-cover rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-[clamp(1.8rem,3vw,2.8rem)] font-elegant font-bold text-secondary text-center mb-16">
+                My <span class="text-primary">Services</span>
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-custom border-t-4 border-primary">
+                    <div class="w-16 h-16 luxury-gradient rounded-full flex items-center justify-center mb-6">
+                        <i class="fa fa-camera text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-elegant font-bold text-xl text-secondary mb-3">Luxury Photography</h3>
+                    <p class="text-gray-600 mb-4">Studio & location shoots across Dubai — macro details, product shots, lifestyle, catalog & e-commerce ready. Vibrant, sharp, and professionally edited.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-primary"></i> Macro & detail shots</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-primary"></i> Dubai iconic locations</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-primary"></i> Premium retouching</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-custom border-t-4 border-accent">
+                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mb-6">
+                        <i class="fa fa-video-camera text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-elegant font-bold text-xl text-secondary mb-3">Cinematic Videography</h3>
+                    <p class="text-gray-600 mb-4">4K brand films, product videos, lifestyle reels & commercials. Smooth motion, vibrant color grading, elegant sound — perfect for luxury brands.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-accent"></i> Product close-ups</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-accent"></i> Lifestyle & storytelling</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-accent"></i> Social media reels</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-custom border-t-4 border-secondary">
+                    <div class="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mb-6">
+                        <i class="fa fa-pencil text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-elegant font-bold text-xl text-secondary mb-3">Creative Content</h3>
+                    <p class="text-gray-600 mb-4">Social media posts, campaign designs, lookbooks & visual identity. Energetic, professional layouts tailored for Dubai's luxury audience.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-secondary"></i> Instagram & LinkedIn posts</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-secondary"></i> Launch campaigns</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check text-secondary"></i> Brand storytelling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-[clamp(1.8rem,3vw,2.8rem)] font-elegant font-bold text-secondary text-center mb-16">
+                Client <span class="text-primary">Testimonials</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-lg relative">
+                    <div class="text-primary text-4xl absolute -top-4 -left-2">
+                        <i class="fa fa-quote-left"></i>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">"The visuals delivered were vibrant, professional, and perfectly matched our Dubai brand standards. Incredible attention to detail — exactly what we needed for our new collection launch."</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold text-secondary">Ahmed Al Mansouri</h4>
+                            <p class="text-sm text-gray-500">Marketing Director, Dubai Luxury Watches</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg relative">
+                    <div class="text-primary text-4xl absolute -top-4 -left-2">
+                        <i class="fa fa-quote-left"></i>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">"Creative, energetic, and deeply professional. Their understanding of the Middle East luxury market made all the difference. Our jewelry campaign performed beyond expectations."</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold text-secondary">Sara Al Hashimi</h4>
+                            <p class="text-sm text-gray-500">Brand Manager, Royal Jewels Dubai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-[clamp(1.8rem,3vw,2.8rem)] font-elegant font-bold text-secondary text-center mb-16">
+                Get In <span class="text-primary">Touch</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <div>
+                    <h3 class="text-2xl font-semibold text-secondary mb-4">Let's Create Something Timeless</h3>
+                    <p class="text-gray-600 mb-6">Based in Dubai, available for projects across UAE & GCC. Whether you need photography, videography or full creative campaigns — I'm ready to deliver vibrant, professional visuals that elevate your brand.</p>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center gap-3">
+                            <i class="fa fa-map-marker text-primary text-xl"></i>
+                            <span>Dubai, United Arab Emirates</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa fa-envelope text-primary text-xl"></i>
+                            <span>contact@luxuryvisuals.ae</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa fa-phone text-primary text-xl"></i>
+                            <span>+971 50 123 4567</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full luxury-gradient flex items-center justify-center text-white hover:scale-110 transition-custom"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full luxury-gradient flex items-center justify-center text-white hover:scale-110 transition-custom"><i class="fa fa-linkedin"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full luxury-gradient flex items-center justify-center text-white hover:scale-110 transition-custom"><i class="fa fa-youtube-play"></i></a>
+                    </div>
+                </div>
+                <form class="space-y-4">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                    </div>
+                    <input type="text" placeholder="Brand Name" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                    <textarea placeholder="Your Message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+                    <button type="submit" class="w-full luxury-gradient text-white px-8 py-3 rounded-md font-semibold hover:scale-[1.02] transition-custom shadow-lg">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-2xl font-elegant font-bold mb-4"><span class="text-primary">Luxury</span>Visuals</h3>
+                    <p class="text-gray-400">Premium photography, videography & creative content for watch & jewelry brands — Dubai & GCC.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-3">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-primary transition-custom">Home</a></li>
+                        <li><a href="#about" class="hover:text-primary transition-custom">About</a></li>
+                        <li><a href="#portfolio" class="hover:text-primary transition-custom">Portfolio</a></li>
+                        <li><a href="#services" class="hover:text-primary transition-custom">Services</a></li>
+                        <li><a href="#contact" class="hover:text-primary transition-custom">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-3">Contact</h4>
+                    <p class="text-gray-400 mb-2">Dubai, UAE</p>
+                    <p class="text-gray-400 mb-2">contact@luxuryvisuals.ae</p>
+                    <p class="text-gray-400">+971 50 123 4567</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+                <p>© 2026 LuxuryVisuals | All Rights Reserved | Designed for Dubai Luxury Brands</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Tabs -->
+    <script>
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tab = button.getAttribute('data-tab');
+                
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('active', 'luxury-gradient', 'text-white');
+                    btn.classList.add('bg-white', 'text-secondary', 'border-2', 'border-primary');
+                });
+                button.classList.add('active', 'luxury-gradient', 'text-white');
+                button.classList.remove('bg-white', 'text-secondary', 'border-2', 'border-primary');
+
+                tabContents.forEach(content => content.classList.add('hidden'));
+                document.getElementById(tab + '-content').classList.remove('hidden');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
